@@ -169,3 +169,61 @@ footer h3{
     text-align: center;
    padding-bottom: 20px;
  }
+
+ /* responsive website styles */
+
+ @media screen and (max-width:576px) {
+    .nav-container , .nav-menu , .banner-container {
+        flex-direction: column;
+    
+ }
+ .banner-info{
+    padding: 30px;
+ }
+ 
+
+
+.about-us-container {
+    flex-direction: column-reverse;
+    padding: 50px;
+}
+.about-us h1{
+    margin-bottom: 100px;
+}
+.about-us{
+    margin-bottom: 150px;
+}
+.service-section{
+    height: auto;
+}
+.service-container{
+    padding: 70px;
+    flex-direction: column;
+}
+.footer-container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+   
+    
+}
+footer img{
+    text-align: center;
+    padding: 60px;
+}
+}
+
+@media screen and (min-width:576px) and (max-width:920px){
+    .banner-container{padding: 50px;}
+    .about-us{
+        padding: 70px;
+    }
+    .service-section{
+        height: auto;
+        padding: 50px;
+    }
+    .box{
+        height: 60%;
+    }
+}
