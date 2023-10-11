@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+}
+/* nav related styles */
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    padding: 20px;
+}
+.nav-menu{
+    list-style:none;
+    display: flex;
+    gap: 20px;
+    color: white;
+    font-size: 20px;
+}
+.nav-logo img{
+    width: 120px;
+}
+
+/* banner related styles */
+.banner-pic img{
+    width: 300px;
+}
+.banner-info h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: white;
+    
+}
+.btn{
+    padding: 15px 20px;
+    background-color: orangered;
+    color: white;
+    border: 0;
+    border-radius: 2px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-image: url(images/background.png) , linear-gradient(45deg , black , rgb(66, 65, 65));
+    margin-bottom: 50px;
+   
+}
+.banner-info p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+/* about us section related styles */
+
+.about-us h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.about-us-pic img{
+    width: 300px;
+}
+.about-us-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 50vh;
+}
+.about-us-info h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.about-us-info p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
